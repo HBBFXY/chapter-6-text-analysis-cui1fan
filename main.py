@@ -15,9 +15,8 @@ def analyze_text(text):
         if char.isalpha():
             char_lower = char.lower()
             frequency[char_lower] = frequency.get(char_lower, 0) + 1
-    # 按频率降序排序
     sorted_chars = sorted(frequency.items(), key=lambda x: x[1], reverse=True)
-    return sorted_chars# 在此处增加代码
+    return sorted_chars
     
 
 # 主程序，已完整
