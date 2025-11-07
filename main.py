@@ -10,7 +10,7 @@ def analyze_text(text):
     返回:
     list - 按字符频率降序排列的字符列表
     """
-        frequency = {}
+    frequency = {}
     for char in text:
         if char.isalpha():
             char_lower = char.lower()
